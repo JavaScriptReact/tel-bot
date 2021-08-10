@@ -1,0 +1,3 @@
+Hi my name si Lukas Petricek,
+I am fullstack web developer, that programm in HTML, CSS, Javascript + mern, Typescript, Python.
+If you want web, contact me @Lucas_Developer

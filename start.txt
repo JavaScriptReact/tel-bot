@@ -1,0 +1,5 @@
+my name is Lucas Developer and this is my bot.
+For :
+Current time write /time
+Info about author /author
+My photo /bot_photo
