@@ -12,9 +12,12 @@ app.use(cors());
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
-bot.on("message", (msg) => {
-  const id = msg.chat.id;
-  bot.sendMessage(id, msg.text);
+app.get("/", (req, res) => {
+  bot.on("message", (msg) => {
+    const id = msg.chat.id;
+    bot.sendMessage(id, msg.text);
+  });
+  res.send("Homepage");
 });
 
 server.listen(PORT, () => {
